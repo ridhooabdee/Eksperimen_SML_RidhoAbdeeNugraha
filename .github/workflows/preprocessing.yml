@@ -7,7 +7,7 @@ on:
       - main
     # Workflow ini berjalan hanya jika ada perubahan di folder raw data atau folder preprocessing
     paths:
-      - 'namadataset_raw/**'
+      - dataset-kelayakan_beasiswa_raw/**'
       - 'preprocessing/**'
 
 jobs:
@@ -34,14 +34,14 @@ jobs:
       # 4. Menjalankan script automate
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Ridho.py
+          python preprocessing/automate_RidhoAbdeeNugraha.py
 
       # 5. Menyimpan perubahan kembali ke repository GitHub (Commit & Push)
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add namadataset_preprocessing/
+          git add dataset-kelayakan_beasiswa_preprocessing/
           
           # Baris ini memastikan GitHub tidak error jika datanya ternyata tidak ada perubahan
           git diff --quiet && git diff --staged --quiet || git commit -m "Automated data preprocessing update via GitHub Actions"
