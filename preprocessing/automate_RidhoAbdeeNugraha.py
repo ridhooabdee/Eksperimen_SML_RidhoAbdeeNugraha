@@ -23,8 +23,8 @@ def terapkan_logika_bisnis(df_input):
 def main():
     # 1. Mendefinisikan Path (sesuai struktur folder)
     # File ini dijalankan di root directory repository, sehingga path-nya relatif dari root
-    input_path = 'namadataset_raw/dataset_kelayakan_beasiswa.csv'
-    output_dir = 'namadataset_preprocessing'
+    input_path = 'dataset-kelayakan-beasiswa_raw/dataset-kelayakan-beasiswa_raw.csv'
+    output_dir = 'preprocessing/dataset-kelayakan-beasiswa_preprocessing'
     output_path = f'{output_dir}/dataset_kelayakan_beasiswa_clean.csv'
 
     print("=== Memulai Automasi Preprocessing ===")
