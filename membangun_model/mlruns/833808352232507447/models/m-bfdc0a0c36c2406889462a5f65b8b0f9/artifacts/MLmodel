@@ -1,0 +1,23 @@
+artifact_path: file:///D:/Disk 1/dicoding/pijak/kursus/Membangun Sistem Machine Learning/Eksperimen_SML_RidhoAbdeeNugraha/membangun_model/mlruns/833808352232507447/models/m-bfdc0a0c36c2406889462a5f65b8b0f9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-bfdc0a0c36c2406889462a5f65b8b0f9
+model_size_bytes: 51626
+model_uuid: m-bfdc0a0c36c2406889462a5f65b8b0f9
+prompts: null
+run_id: 43b2e280f2a146fc909c284c3af58764
+utc_time_created: '2026-06-09 17:53:31.054995'

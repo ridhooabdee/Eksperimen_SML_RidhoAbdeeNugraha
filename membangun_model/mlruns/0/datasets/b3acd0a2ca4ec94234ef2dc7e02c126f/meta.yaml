@@ -1,0 +1,10 @@
+digest: 24aaa76f
+name: dataset
+profile: '{"num_rows": 1600, "num_elements": 6400}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "IPK", "required": true},
+  {"type": "long", "name": "Skor_Motivasi_Tertulis", "required": true}, {"type": "long",
+  "name": "Skor_Literasi_Finansial", "required": true}, {"type": "long", "name": "Semester",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "LENOVO", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "55799623dfa2264fc0c476a73c257fea9af984a9"}}'
+source_type: code

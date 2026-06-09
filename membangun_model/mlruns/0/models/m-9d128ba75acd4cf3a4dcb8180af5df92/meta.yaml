@@ -1,0 +1,11 @@
+artifact_location: file:///D:/Disk 1/dicoding/pijak/kursus/Membangun Sistem Machine
+  Learning/Eksperimen_SML_RidhoAbdeeNugraha/membangun_model/mlruns/0/models/m-9d128ba75acd4cf3a4dcb8180af5df92/artifacts
+creation_timestamp: 1781028850819
+experiment_id: '0'
+last_updated_timestamp: 1781028874462
+model_id: m-9d128ba75acd4cf3a4dcb8180af5df92
+model_type: null
+name: model
+source_run_id: 53d6876f3a9641e9b157f3cd1c6c10e9
+status: 2
+status_message: null
