@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'beasiswa_model'
+    static_configs:
+      # host.docker.internal digunakan agar docker bisa membaca port 8000 di laptop Anda
+      - targets: ['host.docker.internal:8000']
